@@ -5,7 +5,7 @@
 </p>
 
 This repository contains my deep learning course projects as part of the Deep Learning course at Ben Gurion University of The Negev.  </br>
-During the course I have implemented 4 porjects, in which each one covers different approach - ANN, CNN, RNN and GAN. </br>
+During the course I have implemented 4 projects, in which each one covers different approach - ANN, CNN, RNN and GAN. </br>
 The first lessons of the course were based on Coursera's course of Andrew Ng. - DeepLearning Specialization ([link](https://www.coursera.org/specializations/deep-learning)) and covered all of its sylabus. Next lessons were about current work on this field of study and open challenges. 
 
 ---
