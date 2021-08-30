@@ -1,9 +1,14 @@
 # The purpose of the assignment
 Enabling students to experiment with building a simple neural network “from scratch” and to obtain a deep understanding of the forward/backward propagation process.
 
-## Function definitions
+<p align="center">
+	<img height=300 width=600 src="https://bernardmarr.com/img/What%20is%20an%20Artificial%20Neural%20Networks.jpg">
+</p>
 
+## Function definitions
+---
 ### Forward propagation process
+---
 
 a. initialize_parameters(layer_dims):
 ```
@@ -103,9 +108,9 @@ A - the activation values of a given layer
 output:
 NA - the normalized activation values, based on the formula learned in class
 ```
-
+---
 ### Backward propagation process
-
+---
 a.  Linear_backward(dZ, cache):
 ```
 description:
@@ -198,8 +203,10 @@ learning_rate – the learning rate used to update the parameters (the “alpha�
 Output:
 parameters – the updated values of the parameters object provided as input
 ```
-
+---
 ### Use previous functions to train the network and produce predictions
+---
+
 a.	L_layer_model(X, Y, layers_dims, learning_rate, num_iterations, batch_size):
 ```
 Description:
@@ -232,8 +239,9 @@ Parameters – a python dictionary containing the DNN architecture’s parameter
 Output:
 accuracy – the accuracy measure of the neural net on the provided data (i.e. the percentage of the samples for which the correct label receives the hughest confidence score). Use the softmax function to normalize the output values.
 ```
-
+---
 ### Training
+---
 Finally we used the code to classify the MNIST dataset with the following configuration:
 *	4 layers (aside from the input layer), with the following sizes: 20,7,5,10
 *	Do not activate the batchnorm option at this point
