@@ -22,9 +22,3 @@ The porjects were implemented in python 3.7, using Tensorflow library version 2.
 3. RNN - lyrics generation using RNNs - The purpose of this task was to train a neural network to generate lyrics based on a provided melody.
 
 4. GAN - Tabular samples generation - This work has two sections, the first one is an implementation of a simple GAN model for tabular data, and the second part is an implementaion of a GAN architecture that should infer the inner-working of a black-box model.  
-
----
-
-<p align="center">
-<img src="https://cdn4.euraxess.org/sites/default/files/migration/euraxess_service_centre/bgu-white.png">
-</p>
